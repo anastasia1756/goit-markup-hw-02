@@ -1,0 +1,232 @@
+:root {
+  --accent-color: #2196f3;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --background-color: #2F303A;
+  --secondary-background-color: #F5F4FA;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* =========HEADER========= */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.accent {
+  color: var(--accent-color)
+}
+
+.link-nav.current {
+  color: var(--accent-color)
+}
+
+.menu-link {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+
+.mail-contact {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.mail-contact:hover,
+.mail-contact:focus {
+  color: var(--accent-color);
+}
+
+.tel-link {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+
+/* ========= END HEADER========= */
+
+/* =========HERO========= */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.modal-btn {
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+  cursor: pointer;
+  background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #FFFFFF;
+}
+
+.modal-btn:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+}
+.modal-btn:focus {
+  color: var(--accent-color);
+}
+/* ========= END HERO ========= */
+
+/* ========= ADVANTAGES ======== */
+
+.advantage-list {
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.description {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+/* ========= END ADVANTAGES ======== */
+
+/* ========= ABOUT ======== */
+.title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* ========= END ABOUT ======== */
+
+/* ========= TEAM ======== */
+.team-list {
+  background-color: var(--secondary-background-color);
+}
+.team-list-title {
+  font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.name-list {
+  font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.job-desc {
+  font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+/* ========= END TEAM ======== */
+
+/* ========= FOOTER ======== */
+.navigation {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.map-nav {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+/* ========= END FOOTER ======== */
+
+/* ========= PORTFOLIO ======== */
+/* ========= PAGE NAVIGATION ======== */
+.menu-buttons {
+  font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+background: #F5F4FA;
+}
+
+.menu-buttons:hover,
+.menu-buttons:focus {
+  color: #FFFFFF;
+  background-color: var(--accent-color);
+}
+/* ========= END PAGE NAVIGATION ======== */
+
+/* ========= OUR PROJECTS ======== */
+.projects-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.product-desc {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+/* ========= END OUR PROJECTS ======== */
